@@ -1,0 +1,104 @@
+header {
+    width: 1140px;
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.menu {
+    display: flex;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.menu li a {
+    color: white;
+    font-weight: 600;
+    transition: color .3s;
+    padding: 0 10px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a:hover {
+    color: red;
+    background-color: white;
+    padding: 26px 10px;
+}
+
+.menu__tv {
+    position: absolute;
+    color: orange;
+    background-color: white;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 1;
+}
+
+.menu-stealth {
+    display: flex;
+    gap: 0 5px;
+    margin-right: 50px;
+}
+
+.menu-stealth div {
+    width: 5px;
+    height: 5px;
+    background-color: silver;
+    border-radius: 50%;
+}
+
+.tariff {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: .3s;
+}
+
+.tariff:hover {
+    color: red;
+    border-color: red;
+}
+
+.search-btn {
+    transition: .3s;
+}
+
+.search-btn:hover {
+    fill: red;
+}
+
+.lang {
+    color: gray;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.lang:hover {
+    color: white;
+}
+
+.log-in {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    transition: .3s;
+}
+
+.log-in:hover {
+    color: red;
+}

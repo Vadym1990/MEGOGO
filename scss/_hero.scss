@@ -1,0 +1,134 @@
+.hero {
+    background-image: url(../img/hero-bg.webp);
+    width: 1140px;
+    height: 577px;
+    background-size: 100% 100%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: end;
+    gap: 0 50px;
+    margin-top: auto;
+}
+
+.hero__img {
+    width: 141px;
+    height: 209px;
+}
+
+.hero__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__action-panel {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+.hero__action-panel div:nth-child(1) {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.hero__action-panel div:nth-child(2) {
+    color: orange;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hero__action-panel div:nth-child(3) {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hero__action-panel div:nth-child(4) {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hero__action-panel div:nth-child(5) {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hero__title {
+    font-size: 32px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero__watch-btn,
+.hero__bookmark,
+.hero__thumbs-up,
+.hero__thumbs-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 0;
+    color: white;
+}
+
+.hero__watch-panel {
+    display: flex;
+    gap: 0 30px;
+}
+
+.hero__watch-btn div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    padding: 0 50px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 5px;
+    height: 50px;
+    transition: .3s;
+}
+
+.hero__watch-btn div:nth-child(1):hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.hero__bookmark div:nth-child(1) {
+    border: 1px solid white;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.hero__bookmark div:nth-child(1):hover {
+    color: red;
+    cursor: pointer;
+}
+
+.hero__thumbs-up div:nth-child(1),
+.hero__thumbs-down div:nth-child(1) {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.hero__watch-btn div:nth-child(2),
+.hero__bookmark div:nth-child(2),
+.hero__thumbs-up div:nth-child(2),
+.hero__thumbs-down div:nth-child(2) {
+    font-size: 14px;
+}
+
+.hero__thumbs-down:hover {
+    color: red;
+}
+
+.hero__thumbs-up:hover {
+    color: green;
+}

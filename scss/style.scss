@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../img/main-bg.jpg);
+    background-attachment: fixed;
+    padding-left: 390px;
+    padding-top: 175px;
+}
+
+li {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+}
+
+.df {
+    display: flex
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.fg1 {
+    flex-grow: 1;
+}
+
+@import "./fonts";
+@import "./header";
+@import "./hero";
