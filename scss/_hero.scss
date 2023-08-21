@@ -9,6 +9,7 @@
     align-items: end;
     gap: 0 50px;
     margin-top: auto;
+    box-shadow: inset 0px -154px 85px 171px rgba(0, 0, 0, 0.3);
 }
 
 .hero__img {
@@ -127,8 +128,10 @@
 
 .hero__thumbs-down:hover {
     color: red;
+    cursor: pointer;
 }
 
 .hero__thumbs-up:hover {
     color: green;
+    cursor: pointer;
 }

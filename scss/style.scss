@@ -24,8 +24,16 @@ a {
     display: flex
 }
 
+.fdc {
+    flex-direction: column;
+}
+
 .aic {
     align-items: center;
+}
+
+.aifs {
+    align-items: flex-start;
 }
 
 .jcsb {
@@ -36,6 +44,27 @@ a {
     flex-grow: 1;
 }
 
+.fww {
+    flex-wrap: wrap;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fw600 {
+    font-weight: 600;
+}
+
+.cs {
+    color: silver
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
 @import "./fonts";
 @import "./header";
 @import "./hero";
+@import "./description";
