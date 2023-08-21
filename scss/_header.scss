@@ -37,13 +37,24 @@ header {
 
 .menu__tv {
     position: absolute;
-    color: orange;
+    color: black;
     background-color: white;
-    padding-top: 50px;
+    padding: 30px 30px;
     left: 0;
-    top: 0;
+    top: 42px;
     display: none;
-    z-index: 1;
+    width: 200px;
+    flex-direction: column;
+    gap: 10px 0;
+    text-transform: capitalize;
+}
+
+.menu li:nth-child(1):hover .menu__tv {
+    display: flex;
+}
+
+.menu li a:nth-child(1) {
+    z-index: 9;
 }
 
 .menu-stealth {
